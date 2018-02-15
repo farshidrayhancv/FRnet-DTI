@@ -2,7 +2,7 @@
 
 ## Pre requisites
 Tensorflow   
-Tflearn
-Python v3.6
-Numpy
+Tflearn    
+Python v3.6    
+Numpy    
 
