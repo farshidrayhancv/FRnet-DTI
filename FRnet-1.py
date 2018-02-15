@@ -24,11 +24,11 @@ class Model:
         network = max_pool_2d(network, kernel_size=2, strides=2)
 
         network1 = conv_2d(network, 8, 1, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
-        network1 = conv_2d(network1, 16, 3, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
+        network1 = conv_2d(network1, 64, 3, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
         network2 = conv_2d(network, 8, 1, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
-        network2 = conv_2d(network2,16, 5, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
+        network2 = conv_2d(network2,32, 5, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
         network3 = conv_2d(network, 8, 1, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
-        network3 = conv_2d(network3, 16, 2, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
+        network3 = conv_2d(network3, 64, 2, activation='relu', regularizer="L2", padding='same', strides=[1, 1, 1, 1])
         network4 = network = max_pool_2d(network, kernel_size=1, strides=1)
 
         network = merge([network1, network2, network3, network4] , mode='concat', axis=3)
