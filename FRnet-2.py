@@ -64,7 +64,7 @@ class Model:
 
         network = fully_connected(network, 2048, activation='relu')
         network = fully_connected(network, 512, activation='relu')
-        network = dropout(network, 0.8)
+        network = dropout(network, 0.5)
         network = fully_connected(network, self.output_shape, activation='softmax')
 
 
