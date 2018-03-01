@@ -1,5 +1,4 @@
-# FRnet-DTI: Deepnet for Feature Manipulation and Drug-Target Interaction Prediction
-
+# FRnet-DTI: Convolutional Neural Networks for Feature Manipulation and Drug-Target Interaction Prediction
 ## Pre requisites
 Tensorflow   
 Tflearn    
