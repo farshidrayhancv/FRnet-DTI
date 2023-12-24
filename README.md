@@ -15,7 +15,7 @@ Train-FRnet-2.py uses the output of Train-FRnet-1.py as input for classification
 PS: In our reseach we created new seperate csv file for each dataset with 4096 features and class values and used that as the dataset to train and test FRnet-2.  
 
 
-# Paper link: here !!   
+# Paper link: [here](https://www.cell.com/heliyon/pdf/S2405-8440(20)30289-9.pdf) 
 Please cite our paper if you find our work helpful in your project.
 
 
